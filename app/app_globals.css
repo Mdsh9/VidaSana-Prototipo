@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-background: #e8f5e9;
+  --color-primary: #4caf50;
+  --color-secondary: #2196f3;
+  --color-accent: #ff9800;
+  --color-text: #333333;
+  --color-text-light: #666666;
+  --color-white: #ffffff;
+  --color-card: #ffffff;
+  --color-success: #66bb6a;
+  --color-error: #f44336;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+.transition-screen {
+  transition: all 0.3s ease-in-out;
+}
+
+.high-contrast {
+  --color-background: #000000;
+  --color-primary: #ffffff;
+  --color-secondary: #ffeb3b;
+  --color-accent: #ff4081;
+  --color-text: #ffffff;
+  --color-text-light: #cccccc;
+  --color-card: #333333;
+}
+
+.large-text {
+  font-size: 1.5em;
+}
+
